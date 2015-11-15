@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    	<title>Lettuce Garden</title>
+    	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic,600italic,300italic,300' rel='stylesheet' type='text/css'>
+        <title>Lettuce Garden</title>
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="keywords" content="">
@@ -22,8 +23,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+        
         <link rel="stylesheet" type="text/css" href="/assets/style.css">
+        
     </head>
     <body class="container-fluid">
     	<nav class="navbar navbar-default" id="navbar">
@@ -47,7 +49,6 @@
                 <p>$79 per month</p>
                 <p>Perfect for 1 person</p>
                 <a class="btn selectbtn" href="">Select</a>
-                <p>Setup includes: Lush vegetable containers with grown organic vegetables, new soil, and automated drip irrigation system</p>
             </div>
             <div class="col-md-4 text-center">
                 <h2 class="price_head" id="pstand">STANDARD</h2>
@@ -68,7 +69,13 @@
                 <p>$119 per month</p>
                 <p>Perfect for a family of 4</p>
                 <a class="btn selectbtn" href="">Select</a>
+                
             </div>
+        </div>
+        <div id="psub" class="text-center">
+            <p>Setup includes: Lush vegetable containers with grown organic vegetables, 
+                new soil, and automated drip irrigation system</p>
+            <p>*All plans require a 1 year subscription.</p>
         </div>
 
     </body>

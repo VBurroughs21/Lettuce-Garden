@@ -92,8 +92,8 @@
        
         <section id="beyond" class="col-md-12">
             <div>
-                <img src="">
-                <div class="pull-right">
+                <img src="/assets/images/savesomeforyourself.png" class="col-md-7" id="savesome">
+                <div class="pull-right col-md-5 text-center" id="savetext">
                     <h2 class="hip">SAME SOME FOR YOURSELF</h2>
                     <p>Before we harvest, tell us
                         what you want to keep and we'll 

@@ -1,7 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	font-family: Open Sans;
+	font-family: 'Open Sans Reg', sans-serif;
 }
 
 .hip {
@@ -114,8 +114,40 @@ header {
 	#pprod {
 		background-color: #3ad5a0;
 	}
+	#psub {
+		margin-top: 10px;
+		font-size: 10px;
+	}
+
+#beyond {
+	background-color: #a2916a;
+	padding: 0px;
+	height: 375px;
+	color: #fff;
+}
+
+#savesome {
+	height: 375px;
+	padding: 0px;
+}
+
+#savetext {
+	margin-top: 70px;
+}
 @font-face {
     font-family: Hipsterish;
     src: url(/assets/hipsterish/HipsterishFontNormal.ttf);
+}
+@font-face {
+    font-family: Open Sans Reg;
+    src: url(/assets/open_sans/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Open Sans Italic;
+    src: url(/assets/open_sans/OpenSans-Italic.ttf);
+}
+@font-face {
+    font-family: Open Sans Light;
+    src: url(/assets/open_sans/OpenSans-Light.ttf);
 }
 
