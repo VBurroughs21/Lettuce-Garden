@@ -28,10 +28,12 @@
     <body class="container-fluid">
     	<?php $this->load->view('partials/header') ?>
     	<div>
+    		<h2>
 <?php       if ($this->session->flashdata('available')) {
                 echo $this->session->flashdata('available');
             }
 ?>
+			</h2>
     		<h3>Reserve your spot now:</h3>
 <?php       if ($this->session->flashdata('reg_error')) {
                 echo $this->session->flashdata('reg_error'). "<br>";
@@ -39,8 +41,12 @@
 ?>
 	    	<form method="post" action="/main/create" class="col-md-6">
 	            <div class="form-group">
-	                <label for="name">Name:</label>
-	                <input type="text" class="form-control" id="name" name="name">
+	                <label for="first_name">First Name:</label>
+	                <input type="text" class="form-control" id="first_name" name="first_name">
+	            </div>
+	            <div class="form-group">
+	                <label for="last_name">Last Name:</label>
+	                <input type="text" class="form-control" id="last_name" name="last_name">
 	            </div>
 	            <div class="form-group">
 	                <label for="address">Address:</label>

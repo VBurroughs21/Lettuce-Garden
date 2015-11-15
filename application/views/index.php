@@ -31,10 +31,27 @@
 
     </head>
     <body class="container-fluid">
-        
-        
+        <?php $this->load->view('partials/header') ?>
         <section id="home" class="col-md-12">
-            <header>Lettuce Garden</header>
+            <div>
+                <h2>Yard to Table:</h2>
+                <img src="">
+                <div>
+<?php       if ($this->session->flashdata('check_error')) {
+                echo $this->session->flashdata('check_error'). "<br>";
+            }
+?>
+                <p>CHECK TO SEE IF LETTUS IS AVAILABLE IN YOUR AREA:</p>
+                <form method="post" action="/main/check">
+                    <input type="text" id="address" name="address" placeholder="address">
+                    <input type="text" id="zipcode" name="zipcode" placeholder="zipcode">
+                    <input type="submit" value="search">
+                </form>
+            </div>
+            </div>
+        </section>
+        
+        <section id="wwd" class="col-md-12">
             <div>
                 <h2>What we do:</h2>
                 <div class="col-md-4">
@@ -55,23 +72,7 @@
             
         </section>
 
-        <section id="ytt" class="col-md-12">
-            <div>
-                <h2>Yard to Table:</h2>
-                <img src="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Donec maximus consequat lacinia. Aenean placerat, sem ut euismod eleifend, 
-                    felis lorem accumsan libero, eu consequat tellus elit eget nisi. 
-                    Pellentesque rutrum non mauris a consequat. 
-                    Fusce interdum sapien risus, ut porttitor purus efficitur vel. 
-                    Suspendisse nec ante luctus, tincidunt augue quis, aliquam lectus. 
-                    Donec sit amet vehicula nisl. Integer aliquet laoreet ex non facilisis. 
-                    Cras molestie sollicitudin felis, non finibus massa semper eu. 
-                    Cras lacus ante, porta maximus neque in, vulputate gravida eros. 
-                    Donec quis rutrum mi. Ut congue neque eu justo mattis, a bibendum odio euismod.
-                </p>
-            </div>
-        </section>
+        
        
         <section id="beyond" class="col-md-12">
             <div>
@@ -104,21 +105,6 @@
                     Pellentesque rutrum non mauris a consequat. 
                     Fusce interdum sapien risus, ut porttitor purus efficitur vel.</p>
                 </div>
-            </div>
-        </section>
-
-        <section id="check" class="col-md-12 text-center">
-            <div>
-<?php       if ($this->session->flashdata('check_error')) {
-                echo $this->session->flashdata('check_error'). "<br>";
-            }
-?>
-                <p>CHECK TO SEE IF LETTUS IS AVAILABLE IN YOUR AREA:</p>
-                <form method="post" action="/main/check">
-                    <input type="text" id="address" name="address" placeholder="enter street">
-                    <input type="text" id="zipcode" name="zipcode" placeholder="enter zipcode">
-                    <input type="submit" value="search">
-                </form>
             </div>
         </section>
 
