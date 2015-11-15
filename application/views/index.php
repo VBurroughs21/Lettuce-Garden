@@ -85,7 +85,7 @@ you.</p>
             <div>
                 <img src="/assets/images/savesomeforyourself.png" class="col-md-5" id="savesome">
                 <div class="pull-right col-md-7 text-center" id="savetext">
-                    <h2 class="hip">SAME SOME FOR YOURSELF</h2>
+                    <h2 class="hip">SAVE SOME FOR YOURSELF</h2>
                     <p>Before we harvest, tell us
                         what you want to keep and we'll 
                         box up beautiful, fresh veggies for 
