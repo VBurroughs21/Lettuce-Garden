@@ -23,7 +23,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="/assets/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         
         
@@ -53,18 +53,34 @@
         
         <section id="wwd" class="col-md-12">
             <div>
-                <h2>What we do:</h2>
+                <h2 class="hip">What we do:</h2>
                 <div class="col-md-4">
                     <h3>Install</h3>
                     <img src="" class="home_img">
+                    <p>Each garden is different. We
+                        bring new soil and build an 
+                        economical gardening system
+                        from top to bottom, to ensure
+                        a flourishing, productive plot
+                        you’ll be proud to call your own.</p>
                 </div>
                 <div class="col-md-4">
                     <h3>Tend</h3>
                     <img src="">
+                    <p>We completely manage the
+                        garden so you don’t have to stress.
+                         Watering, weeding, adjusting 
+                         — we work with you to maintain
+                        a happy, healthy garden.</p>
                 </div>
                 <div class="col-md-4">
                     <h3>Harvest</h3>
                     <img src="">
+                    <p>We harvest, collect, and sell
+                        the produce to neighbors and
+                        local businesses, splitting the
+                        produce and the profits with
+                        you, our lovely host.</p>
                 </div>
 
             </div>
@@ -76,23 +92,17 @@
        
         <section id="beyond" class="col-md-12">
             <div>
-                <h2>... and Beyond</h2>
+                <h2 class="hip">Same Some for Yourself</h2>
                 <img src="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Donec maximus consequat lacinia. Aenean placerat, sem ut euismod eleifend, 
-                    felis lorem accumsan libero, eu consequat tellus elit eget nisi. 
-                    Pellentesque rutrum non mauris a consequat. 
-                    Fusce interdum sapien risus, ut porttitor purus efficitur vel. 
-                    Suspendisse nec ante luctus, tincidunt augue quis, aliquam lectus. 
-                    Donec sit amet vehicula nisl. Integer aliquet laoreet ex non facilisis. 
-                    Cras molestie sollicitudin felis, non finibus massa semper eu. 
-                    Cras lacus ante, porta maximus neque in, vulputate gravida eros. 
-                    Donec quis rutrum mi. Ut congue neque eu justo mattis, a bibendum odio euismod.
+                <p>Before we harvest, tell us
+                    what you want to keep and we'll 
+                    box up beautiful, fresh veggies for 
+                    you and your family to enjoy.
                 </p>
             </div>        
         </section>
         
-        <section id="price" class="col-md-12">
+        <!-- <section id="price" class="col-md-12">
             <div>
                 <h2>Pricing Structure</h2>
                 <img src="" class="col-md-5">
@@ -106,7 +116,7 @@
                     Fusce interdum sapien risus, ut porttitor purus efficitur vel.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </body>
 </html>

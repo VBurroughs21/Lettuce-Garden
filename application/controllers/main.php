@@ -27,7 +27,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('joined');
 
-		$this->user->all($zipcode);
+		//$this->user->all($zipcode);
 		//zipcode into session
 	}
 
