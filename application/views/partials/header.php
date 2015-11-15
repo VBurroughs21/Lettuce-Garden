@@ -5,7 +5,7 @@
         </div>
         <div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="btn btn-default" href="/main/sign_up">Sign Up</a></li> 
+                <li><a class="btn btn-default" href="/main/sign_up" id="signupbtn">Sign Up</a></li> 
             </ul>
         </div>
     </div>

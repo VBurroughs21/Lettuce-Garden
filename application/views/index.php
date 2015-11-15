@@ -33,7 +33,7 @@
     <body class="container-fluid">
         <?php $this->load->view('partials/header') ?>
         <section id="home" class="col-md-12">
-            <div>
+            <div class="text-center">
                 <h2>Yard to Table:</h2>
                 <img src="">
                 <div>
@@ -53,10 +53,10 @@
         
         <section id="wwd" class="col-md-12">
             <div>
-                <h2 class="hip">What we do:</h2>
+                <h2 class="hip text-center">What we do:</h2>
                 <div class="col-md-4">
                     <h3>Install</h3>
-                    <img src="" class="home_img">
+                    <img src="" class="img-rounded img-responsive">
                     <p>Each garden is different. We
                         bring new soil and build an 
                         economical gardening system
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-md-4">
                     <h3>Tend</h3>
-                    <img src="">
+                    <img src="" class="img-rounded img-responsive">
                     <p>We completely manage the
                         garden so you don’t have to stress.
                          Watering, weeding, adjusting 
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-4">
                     <h3>Harvest</h3>
-                    <img src="">
+                    <img src="" class="img-rounded img-responsive">
                     <p>We harvest, collect, and sell
                         the produce to neighbors and
                         local businesses, splitting the
@@ -92,31 +92,17 @@
        
         <section id="beyond" class="col-md-12">
             <div>
-                <h2 class="hip">Same Some for Yourself</h2>
                 <img src="">
-                <p>Before we harvest, tell us
-                    what you want to keep and we'll 
-                    box up beautiful, fresh veggies for 
-                    you and your family to enjoy.
-                </p>
+                <div class="pull-right">
+                    <h2 class="hip">Same Some for Yourself</h2>
+                    <p>Before we harvest, tell us
+                        what you want to keep and we'll 
+                        box up beautiful, fresh veggies for 
+                        you and your family to enjoy.
+                    </p>
+                </div>
             </div>        
         </section>
         
-        <!-- <section id="price" class="col-md-12">
-            <div>
-                <h2>Pricing Structure</h2>
-                <img src="" class="col-md-5">
-                <div>
-                    <p>$0 down</p>
-                    <p>$120/month sub</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Donec maximus consequat lacinia. Aenean placerat, sem ut euismod eleifend, 
-                    felis lorem accumsan libero, eu consequat tellus elit eget nisi. 
-                    Pellentesque rutrum non mauris a consequat. 
-                    Fusce interdum sapien risus, ut porttitor purus efficitur vel.</p>
-                </div>
-            </div>
-        </section> -->
-
     </body>
 </html>

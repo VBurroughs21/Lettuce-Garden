@@ -7,16 +7,16 @@ if(ENVIRONMENT == 'production')
 {
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
-	// $db['default']['password'] = 'HRka+ojTJ-gNSn';
-	$db['default']['password'] = 'root';
+	$db['default']['password'] = 'HRka+ojTJ-gNSn';
+	// $db['default']['password'] = 'root';
 	$db['default']['database'] = 'lettuce';
 }
 else
 {
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
-	// $db['default']['password'] = 'HRka+ojTJ-gNSn';
-	$db['default']['password'] = 'root';
+	$db['default']['password'] = 'HRka+ojTJ-gNSn';
+	// $db['default']['password'] = 'root';
 	$db['default']['database'] = 'lettuce';
 }
 
