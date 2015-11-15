@@ -6,15 +6,15 @@ $active_record = TRUE;
 if(ENVIRONMENT == 'production')
 {
 	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'letg';
-	$db['default']['password'] = 'lettuce14';
+	$db['default']['username'] = 'root';
+	$db['default']['password'] = 'HRka+ojTJ-gNSn';
 	$db['default']['database'] = 'lettuce';
 }
 else
 {
 	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'letg';
-	$db['default']['password'] = 'lettuce14';
+	$db['default']['username'] = 'root';
+	$db['default']['password'] = 'HRka+ojTJ-gNSn';
 	$db['default']['database'] = 'lettuce';
 }
 
