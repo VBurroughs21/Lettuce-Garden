@@ -62,7 +62,7 @@
                     <p>We will install a vegetable garden designed specifically for your backyard. </p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="/assets/images/tend.png" class="img-rounded img-responsive ith">
+                    <img src="/assets/images/Tend.png" class="img-rounded img-responsive ith">
                     <h3 class="green">Tend</h3>
                     <p>We will tend, water, and nurture the garden for you.</p>
                 </div>
