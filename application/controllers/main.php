@@ -36,6 +36,11 @@ class Main extends CI_Controller {
 		$this->load->view('thanks');
 	}
 
+	public function pricing()
+	{
+		$this->load->view('pricing');
+	}
+
 	public function check()
 	{
 		$zipcode = $this->input->post('zipcode');

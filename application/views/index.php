@@ -44,8 +44,8 @@
                 <p>CHECK TO SEE IF LETTUS IS AVAILABLE IN YOUR AREA:</p>
                 <form method="post" action="/main/check">
                     <input type="text" id="address" name="address" placeholder="address">
-                    <input type="text" id="zipcode" name="zipcode" placeholder="zipcode">
-                    <input type="submit" value="search">
+                    <input type="text" id="zipcode" name="zipcode" placeholder="zipcode"><br>
+                    <input type="submit" class="btn btn-default" value="CHECK AVAILABILITY" id="cabtn">
                 </form>
             </div>
             </div>
@@ -53,9 +53,9 @@
         
         <section id="wwd" class="col-md-12">
             <div>
-                <h2 class="hip text-center">What we do:</h2>
+                <h2 class="hip text-center">WHAT WE DO</h2>
                 <div class="col-md-4">
-                    <h3>Install</h3>
+                    <h3 class="green">Install</h3>
                     <img src="" class="img-rounded img-responsive">
                     <p>Each garden is different. We
                         bring new soil and build an 
@@ -65,7 +65,7 @@
                         you’ll be proud to call your own.</p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Tend</h3>
+                    <h3 class="green">Tend</h3>
                     <img src="" class="img-rounded img-responsive">
                     <p>We completely manage the
                         garden so you don’t have to stress.
@@ -74,7 +74,7 @@
                         a happy, healthy garden.</p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Harvest</h3>
+                    <h3 class="green">Harvest</h3>
                     <img src="" class="img-rounded img-responsive">
                     <p>We harvest, collect, and sell
                         the produce to neighbors and
@@ -94,7 +94,7 @@
             <div>
                 <img src="">
                 <div class="pull-right">
-                    <h2 class="hip">Same Some for Yourself</h2>
+                    <h2 class="hip">SAME SOME FOR YOURSELF</h2>
                     <p>Before we harvest, tell us
                         what you want to keep and we'll 
                         box up beautiful, fresh veggies for 
