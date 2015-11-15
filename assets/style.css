@@ -58,6 +58,7 @@ header {
 		padding: 5px 25px 5px 25px;
 		text-decoration: none;
 		margin-top: 18px;
+		margin-right: 25px;
 	}
 
 	#cabtn {
@@ -90,17 +91,38 @@ header {
 		color: #fff;
 		font-size: 16px;
 		font-weight: bold;
-		height: 20px;
+		height: 30px;
+		padding-top: 5px; 
 	}
-
+#home {
+		background-image: url(/assets/images/main.png);
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    height: 100%;
+	    color: #fff;
+	    padding-bottom: 30px;
+}
 	#price_pic {
-		background-image: url(/assets/images/table.png);
+		background-image: url(/assets/images/VEGETABLES1.jpg);
 		width: auto;
 		height: 200px;
 		z-index: -100;
 		background-size: cover;
 		text-align: center;
 		color: #fff;
+	}
+
+	#price_con {
+		background-color: rgba(113, 85, 45, 0.6);
+		width: auto;
+		height: 200px;
+		padding: 25px;
+	}
+
+	#price_pic h1 {
+		font-size: 50px;
 	}
 
 	#pstart {
@@ -118,6 +140,11 @@ header {
 		margin-top: 10px;
 		font-size: 10px;
 	}
+	.ith {
+		height: 200px;
+		width: 200px;
+		margin-left: 50px;
+	}
 
 #beyond {
 	background-color: #a2916a;
@@ -133,6 +160,26 @@ header {
 
 #savetext {
 	margin-top: 70px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+#home h3 {
+	padding-bottom: 15px;
+}
+
+#lettuce {
+	font-size: 55px;
+}
+
+.bold {
+	font-weight: 900;
+	font-size: 20px;
+}
+#ptitle {
+	font-size: 150px;
 }
 @font-face {
     font-family: Hipsterish;

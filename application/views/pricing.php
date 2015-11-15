@@ -38,37 +38,39 @@
         </nav>
         <div class="col-md-14">
             <section id="price_pic">
-                <h1>Pricing</h1>
+                <div id="price_con">
+                    <h1 id="ptitle">Pricing</h1>
+                </div>
             </section>
             <div class="col-md-4 text-center">
                 <h2 class="price_head" id="pstart">STARTER</h2>
-                <p>36sqft</p>
+                <p class="bold">36sqft</p>
                 <p>Setup:</p>
                 <p>$400</p>
                 <p>Maintenance, harvesting, network membership:</p>
-                <p>$79 per month</p>
+                <p class="bold">$79 per month</p>
                 <p>Perfect for 1 person</p>
-                <a class="btn selectbtn" href="">Select</a>
+                <a class="btn selectbtn" href="/main/sign_up">Select</a>
             </div>
             <div class="col-md-4 text-center">
                 <h2 class="price_head" id="pstand">STANDARD</h2>
-                <p>72sqft</p>
+                <p class="bold">72sqft</p>
                 <p>Setup:</p>
                 <p>$750</p>
                 <p>Maintenance, harvesting, network membership:</p>
-                <p>$99 per month</p>
+                <p class="bold">$99 per month</p>
                 <p>Perfect for 2-3 people</p>
-                <a class="btn selectbtn" href="">Select</a>
+                <a class="btn selectbtn" href="/main/sign_up">Select</a>
             </div>
             <div class="col-md-4 text-center">
                 <h2 class="price_head" id="pprod">PRODUCER</h2>
-                <p>108sqft</p>
+                <p class="bold">108sqft</p>
                 <p>Setup:</p>
                 <p>$1100</p>
                 <p>Maintenance, harvesting, network membership:</p>
-                <p>$119 per month</p>
+                <p class="bold">$119 per month</p>
                 <p>Perfect for a family of 4</p>
-                <a class="btn selectbtn" href="">Select</a>
+                <a class="btn selectbtn" href="/main/sign_up">Select</a>
                 
             </div>
         </div>

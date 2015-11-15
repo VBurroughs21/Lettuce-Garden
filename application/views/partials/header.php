@@ -4,7 +4,7 @@
 
 <nav class="navbar navbar-default" id="navbar">
         <div class="navbar-header">
-            <a href="/" class="navbar-brand hip green">
+            <a href="/" class="navbar-brand hip green" id="lettuce">
                 <img src="/assets/images/logo.png" id="logo">
                 lettuce
             </a>
